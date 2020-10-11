@@ -1,0 +1,4 @@
+#!/bin/sh
+read x y
+z=`expr $x + $y`
+echo "The sum is $z"
